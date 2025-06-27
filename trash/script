@@ -1,0 +1,7 @@
+# script (save as `script` and run with `python script`)
+
+with open("dataset.txt", "w") as f:
+    for a in range(100):
+        for b in range(100):
+            c = a + b
+            f.write(f"{a}+{b}={c}\n")

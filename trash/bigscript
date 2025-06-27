@@ -1,0 +1,7 @@
+# script
+
+with open("dataset.txt", "w") as f:
+    for a in range(1000):       # 0 to 999
+        for b in range(1000):   # 0 to 999
+            c = a + b
+            f.write(f"{a}+{b}={c}\n")
